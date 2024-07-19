@@ -128,7 +128,7 @@ header{
     width: 90%;
 }
 
-/* ABOUT */
+/* BIO */
 
 .bio-container {
     display: flex;
@@ -167,6 +167,45 @@ header{
 }
 
 
+/* PORTFOLIO */
+
+#projects {
+    width: 93%;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #cccccc2b;
+    border-radius: 10px;
+    max-width: 350px;
+    background: #ffffff0f;
+}
+
+.project-image img {
+    width: 50%;
+}
+
+.project-title {
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: bolder;
+    color: var(--violet);
+}
+
+.project-description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
 
 /* FOOTER */
 
