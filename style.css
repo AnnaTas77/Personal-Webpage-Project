@@ -1,0 +1,32 @@
+:root {
+    --dark-navy: #020c1b;
+    --navy: #0a0d1f;
+    --dark-purple: #050030;
+    --contrast-color: #4fe0be;
+    --violet: #ab99ff;
+}
+
+html,
+body {
+    font-family: "Roboto", "Lato", "Anonymous Pro", "Chilanka", sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    font-size: 1.05rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--dark-purple);
+    background-size: contain;
+}
+
+.emoji {
+    height: 40px;
+}
