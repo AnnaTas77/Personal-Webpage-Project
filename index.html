@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anna's Personal Webpage Project</title>
     <link rel="shortcut icon" href="./images/AT_LOGO.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/61fc509d25.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,23 +15,25 @@
         </a>
         <!-- Navbar -->
         <nav class="navbar-container">
-            <a class="nav-link" href="#home">Home</a>
-            <a class="nav-link" href="#bio">Bio</a>
-            <a class="nav-link" href="#experience">Experience</a>
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-            <a class="nav-link" href="#contact">Contact</a>
+            <ul>
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#bio">Bio</a></li>
+                <li><a class="nav-link" href="#experience">Experience</a></li>
+                <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>           
         </nav>
     </header>
     <main class="main-container">
          <!-- Home -->
          <section id="home">
             <div class="home-page-container">
-                <p class="intro-text">
+                <h1 class="intro-text">
                     Hi, I'm Anna Tasheva.
                     <span>
                         <img src="./images/wave_emoji.svg" class="emoji" />
                     </span>
-                </p>
+                </h1>
 
                 <p class="intro-text">
                     Welcome to my Personal Webpage Project! This is where I share my passion for coding and showcase my
@@ -40,7 +43,7 @@
             </div>
         </section>
         <section id="bio">
-            <p class="section-title">BIO</p>
+            <h2 class="section-title">BIO</h2>
             <div class="bio-container">
                 <img
                     class="bio-img"
@@ -97,11 +100,43 @@
                 </div>
             </div>
         </section>
-        <section id="experience"><p class="section-title">EXPERIENCE</p></section>
-        <section id="portfolio"><p class="section-title">PORTFOLIO</p>
+        <section id="experience">
+            <h2 class="section-title">EXPERIENCE</h2>
+            <img class="girl-coding-img" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmx2dHozdTg5emZicmlyMmE0bGxqaXhnamR1cmt1NWVrZG03eHY0byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif" alt="Girl coding">
+            <p>
+                Lorem ipsum dolor sit amet. Ut culpa explicabo cum voluptatibus nihil quo molestiae voluptas et suscipit repellat. Ea dolore ipsam in quia aspernatur quo consequatur itaque. Vel quod cupiditate ut nostrum dolore et atque facilis eum possimus odio sit blanditiis accusantium.
+            </p>
+            <p>
+                Sed perspiciatis modi qui blanditiis suscipit est voluptate voluptatem. In voluptatem amet et facere neque rem odio excepturi sed voluptatibus sint et officia possimus sed unde explicabo vel eaque quidem. Aut laudantium eius est eaque odit aut dolores blanditiis et animi voluptates et voluptatem officia.
+            </p>
+
+            <p>
+                Eum consequatur nobis sed explicabo nulla ut exercitationem similique et architecto perspiciatis vel ipsum quia. Vel repellat fugit eum quod voluptas eum commodi deleniti et saepe maiores.
+            </p>
+        </section>
+
+        <section id="portfolio">
+            <h2 class="section-title">PORTFOLIO</h2>
             <div class="project-container" id="project-container"></div>
         </section>
-        <section id="contact"><p class="section-title">CONTACT</p></section>
+        <section id="contact">
+            <h2 class="section-title">CONTACT</h2>
+            
+            <div class="social-media">
+                <p>Let's connect!</p>
+                <div class="social-links">
+                    <a href="https://github.com/AnnaTas77" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
+                   <a href="https://www.linkedin.com/in/anna-tasheva-48074085/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                   </a>
+                   <a href="https://en.wikipedia.org/wiki/Facebook" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-square-facebook"></i>
+                   </a>      
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p>
