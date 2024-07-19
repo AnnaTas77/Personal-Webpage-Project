@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anna's Personal Webpage Project</title>
+    <link rel="shortcut icon" href="./images/AT_LOGO.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <a id="logo" href="#home" aria-current="page">
+            <img src="./images/AT_LOGO.png" alt="Anna's Logo" />
+        </a>
         <!-- Navbar -->
         <nav class="navbar-container">
             <a class="nav-link" href="#home">Home</a>
@@ -38,11 +42,13 @@
         <section id="bio">BIO</section>
         <section id="experience">EXPERIENCE</section>
         <section id="portfolio">PORTFOLIO</section>
+        <section id="portfolio">CONTACT</section>
     </main>
     <footer id="contact">
         <p>
             Built with <span>&#x2661;</span> by Anna Tasheva
         </p>
+        <p>Copyright &copy; <span id="year"></span></p>
     </footer>
 
     <script src="script.js"></script>
